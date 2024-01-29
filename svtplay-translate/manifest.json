@@ -1,0 +1,22 @@
+{
+  "description": "Translates SVT Play subtitles",
+  "manifest_version": 3,
+  "name": "SVTPlay-Translate",
+  "version": "0.1",
+
+  "background": {
+     "service_worker": "background.js"
+  },
+
+ "content_scripts": [
+   {
+     "matches": ["https://*.svtplay.se/*"],
+     "js": ["content.js"]
+   }
+ ],
+
+ "host_permissions": [
+    "https://translation.googleapis.com/"
+  ]
+
+}
