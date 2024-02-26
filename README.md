@@ -30,7 +30,10 @@ The plugin can be left installed, it will only activate on svtplay.se pages.
 •	To remove the plugin, go back to Chrome:Extensions and click the remove button on the plugin.
 
 ### How to install non free version
-Installing the paid version is the same, other than you need to open the file svtplay-translate-main\svtplay-translate\background.js in a text editor, and insert your API key in the third line where the API key is currently blank - it needs to go between the quotation marks.
+1. Carry out steps 1-4 as above
+2. Open the file svtplay-translate-main\svtplay-translate\background.js in a text editor, and insert your API key in the third line where the API key is currently blank. It needs to go between the quotation marks.
+3. Remove the free version of the plugin from Chrome:Extensions if you've installed it.
+4. Carry on from step 5, browsing to the svtplay-translate-main\svtplay-translate folder instead before you choose choose ‘select folder’
 
 ## Known issues
 •	Free version screws up the translation if the original text contans a % sign, I'm probably not escaping it correctly before sending.
